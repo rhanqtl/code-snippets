@@ -1,0 +1,42 @@
+# https://clang.llvm.org/docs/ClangFormatStyleOptions.html
+
+Language: Cpp
+Standard: Cpp11
+BasedOnStyle: Google
+
+# indent
+IndentWidth: 2
+TabWidth: 2
+AccessModifierOffset: -2
+ContinuationIndentWidth: 4
+
+# align
+BreakBeforeTernaryOperators: true
+BreakBeforeBinaryOperators: false
+ColumnLimit: 120
+AlignAfterOpenBracket: BAS_Align
+AlignTrailingComments: true
+
+# constructor
+BreakConstructorInitializersBeforeComma: false
+ConstructorInitializerIndentWidth: 8
+ConstructorInitializerAllOnOneLineOrOnePerLine: true
+
+# short block
+AllowShortBlocksOnASingleLine: SBS_Empty
+AllowShortCaseLabelsOnASingleLine: false
+AllowShortEnumsOnASingleLine: true
+AllowShortFunctionsOnASingleLine: SFS_Inline
+AllowShortIfStatementsOnASingleLine: false
+AllowShortLoopsOnASingleLine: false
+Cpp11BracedListStyle: true
+
+# other
+AlwaysBreakTemplateDeclarations: true
+DerivePointerAlignment: false
+PointerAlignment: Left
+
+# clang-format 3.9+
+SortIncludes: true
+BreakStringLiterals: false
+ReflowComments: true
