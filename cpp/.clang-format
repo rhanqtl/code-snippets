@@ -14,7 +14,7 @@ ContinuationIndentWidth: 4
 BreakBeforeTernaryOperators: true
 BreakBeforeBinaryOperators: false
 ColumnLimit: 120
-AlignAfterOpenBracket: BAS_Align
+# AlignAfterOpenBracket: BAS_Align
 AlignTrailingComments: true
 
 # constructor
@@ -23,10 +23,10 @@ ConstructorInitializerIndentWidth: 8
 ConstructorInitializerAllOnOneLineOrOnePerLine: true
 
 # short block
-AllowShortBlocksOnASingleLine: SBS_Empty
+# AllowShortBlocksOnASingleLine: SBS_Empty
 AllowShortCaseLabelsOnASingleLine: false
 AllowShortEnumsOnASingleLine: true
-AllowShortFunctionsOnASingleLine: SFS_Inline
+# AllowShortFunctionsOnASingleLine: SFS_Inline
 AllowShortIfStatementsOnASingleLine: false
 AllowShortLoopsOnASingleLine: false
 Cpp11BracedListStyle: true
